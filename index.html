@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Ethical AI</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous"
+    />
+
+  </head>
+
+  <body>
+    <section class="bg-particles" id="particles" aria-hidden="true"></section>
+
+    <nav class="navbar navbar-expand-lg fixed-top" id="navbar">
+      <div class="container-fluid" id="container-fluid">
+        <a class="navbar-brand d-flex align-items-center" href="#">
+          <img src="images/logo.png" alt="AI Global Networks Logo" class="header-logo" />
+          <span>AI Global Networks</span>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarContent"
+          aria-controls="navbarContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarContent">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#form">Contact</a>
+            </li>
+          </ul>
+          <div class="d-flex">
+            <button class="btn btn-outline-success ms-lg-3" id="btn-outline-success" type="button">Sign Up</button>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <main class="main-content">
+      <!-- Hero section -->
+      <section class="hero-section" id="hero">
+        <h1 id="hero-title" class="hero-title">
+          Building a Future with Ethical AI
+        </h1>
+        <p class="hero-subtitle">
+          <strong>Sign up to promote the responsible development and use of AI.</strong><br />
+          Explore the world of integrating ethical considerations into artificial intelligence. Discover how
+          responsible AI can enhance fairness, fairness, and societal well-being for a more inclusive and
+          equitable technological landscape.
+        </p>
+        <a href="#form" class="cta-button">Access Thesis Now</a>
+      </section>
+
+      <!-- About section -->
+      <section class="about-section" id="about">
+        <h2 id="about-title" class="about-title">About This Thesis</h2>
+        <p class="about-text">
+          This landing page provides access to a comprehensive thesis exploring
+          the benefits of ethical AI. We look at AI policies, the potential and
+          real-world AI and understanding frameworks of ethical AI applications,
+          societal concerns around AI policies, practical applications, and
+          future implications of AI ethics.
+        </p>
+      </section>
+
+      <!-- Sign Up form with Hardcoded Region Dropdown -->
+      <section class="form py-5" id="form">
+        <div class="container">
+          <h2 class="title text-center mb-4">Access the Thesis</h2>
+          <form class="row g-3 needs-validation" novalidate>
+            <fieldset>
+              <legend class="visually-hidden">Thesis Access Form</legend>
+              <div class="col-md-12">
+                <label for="firstName" class="form-label">First Name</label>
+                <input
+                  type="text"
+                  id="firstName"
+                  class="form-control"
+                  placeholder="Enter your first name"
+                  required
+                />
+                <div class="valid-feedback">Looks good!</div>
+                <div class="invalid-feedback">Please provide your first name.</div>
+              </div>
+              <div class="col-md-12">
+                <label for="surname" class="form-label">Surname</label>
+                <input
+                  type="text"
+                  id="surname"
+                  class="form-control"
+                  placeholder="Enter your surname"
+                  required
+                />
+                <div class="valid-feedback">Looks good!</div>
+                <div class="invalid-feedback">Please provide your surname.</div>
+              </div>
+              <div class="col-md-12">
+                <label for="email" class="form-label">Email</label>
+                <input
+                  type="email"
+                  id="email"
+                  class="form-control"
+                  placeholder="Enter your email"
+                  required
+                />
+                <div class="valid-feedback">Looks good!</div>
+                <div class="invalid-feedback">Please provide a valid email.</div>
+              </div>
+              <div class="col-md-12">
+                <label for="contact" class="form-label">Contact Number</label>
+                <input
+                  type="tel"
+                  id="contact"
+                  class="form-control"
+                  placeholder="Enter your phone number"
+                  required
+                />
+                <div class="valid-feedback">Looks good!</div>
+                <div class="invalid-feedback">Please provide a valid phone number.</div>
+              </div>
+              <div class="col-md-12">
+                <label for="occupation" class="form-label">Occupation</label>
+                <input
+                  type="text"
+                  id="occupation"
+                  class="form-control"
+                  placeholder="Enter your occupation"
+                  required
+                />
+                <div class="valid-feedback">Looks good!</div>
+                <div class="invalid-feedback">Please provide your occupation.</div>
+              </div>
+              <div class="col-md-12">
+                <label for="region" class="form-label">Region</label>
+                <select class="form-select" id="region" required>
+                  <option selected value="">Choose...</option>
+                  <option value="Africa">Africa</option>
+                  <option value="Antarctica">Antarctica</option>
+                  <option value="Arctic">Arctic</option>
+                  <option value="Asia">Asia</option>
+                  <option value="Australasia">Australasia</option>
+                  <option value="Caribbean">Caribbean</option>
+                  <option value="Central America">Central America</option>
+                  <option value="Central Asia">Central Asia</option>
+                  <option value="East Africa">East Africa</option>
+                  <option value="East Asia">East Asia</option>
+                  <option value="Eastern Europe">Eastern Europe</option>
+                  <option value="Middle East">Middle East</option>
+                  <option value="North Africa">North Africa</option>
+                  <option value="North America">North America</option>
+                  <option value="Oceania">Oceania</option>
+                  <option value="South America">South America</option>
+                  <option value="South Asia">South Asia</option>
+                  <option value="Southeast Asia">Southeast Asia</option>
+                  <option value="Southern Africa">Southern Africa</option>
+                  <option value="West Africa">West Africa</option>
+                  <option value="Western Europe">Western Europe</option>
+                </select>
+                <div class="valid-feedback">Looks good!</div>
+                <div class="invalid-feedback">Please select a region.</div>
+              </div>
+              <div class="col-12">
+                <label for="address" class="form-label">Address</label>
+                <input
+                  type="text"
+                  id="address"
+                  class="form-control"
+                  placeholder="Enter your address"
+                  required
+                />
+                <div class="valid-feedback">Looks good!</div>
+                <div class="invalid-feedback">Please provide a valid address.</div>
+              </div>
+              <div class="col-12">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" id="termsCheck" required />
+                  <label class="form-check-label" for="termsCheck">
+                    Agree to terms and conditions
+                  </label>
+                  <div class="invalid-feedback">You must agree before submitting.</div>
+                </div>
+              </div>
+              <div class="col-12">
+                <button type="submit" class="btn btn-primary w-100">Submit</button>
+              </div>
+              <div class="col-12">
+                <small class="privacy-note text-primary text-center">
+                  Your information will be used solely for the purpose of providing access to the thesis
+                  and will not be shared with third parties.
+                </small>
+              </div>
+            </fieldset>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <address>
+        Contact us @
+        <a href="mailto:info@aiglobalnetworks.com">info@aiglobalnetworks.com</a>
+      </address>
+      <p>&copy; 2025 AI Global Networks. All rights reserved.</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js"></script>
+    <script src="./supabase.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./script.js" async defer></script>
+   
+    <script>
+      // Bootstrap validation script
+      (function () {
+        'use strict';
+        const forms = document.querySelectorAll('.needs-validation');
+        Array.from(forms).forEach(form => {
+          form.addEventListener('submit', event => {
+            if (!form.checkValidity()) {
+              event.preventDefault();
+              event.stopPropagation();
+            }
+            form.classList.add('was-validated');
+          }, false);
+        });
+      })();
+    </script>
+   
+  </body>
+</html>
